@@ -1,0 +1,335 @@
+body {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 2000px;
+  width: 1500px;
+} 
+ 
+ 
+ 
+ 
+ p {
+  font-family: arial;
+}
+.welcome {
+  width:300px;
+}
+.all {
+  display: grid;
+  grid-template-rows: 200px 300px 700px 800px 500px;
+  row-gap: 20px;
+  justify-content: center;
+}
+@media (max-width: 250px) {
+  .all {
+    width: 230px;
+  }
+  }
+  @media (min-width: 1500px) {
+    .all {
+      width: 1000px;
+    }
+  }
+header {
+  background-color: rgb(230, 229, 229);
+  display: grid;
+  width: 800px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.guide-title {
+  font: arial;
+  font-weight: 700;
+  display: block;
+  font-size: 35px;
+}
+.about-section {
+  background-color: rgb(230, 229, 229);
+  display: grid;
+  justify-content: center;
+  width: 800px;
+  border-width: 8px;
+  border-radius: 2px;
+  border-radius: 10px;
+}
+.about-topic {
+  display: grid;
+  grid-template-columns: 40px 150px;  
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.profile-picture {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 8px;
+}
+.picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  vertical-align: top;
+}
+.about {
+  display: inline-block;
+  width: 400x;
+  font-family: arial;
+  font-weight: 700;
+  font-size: 25px;
+}
+.intro {
+  font-family: arial;
+  display: block;
+  font-size: 17px;
+}
+.contact-section {
+  background-color: rgb(230, 229, 229);
+  display: grid;
+  width: 800px;
+  height: 700px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.contact {
+  display: grid;
+  row-gap: 10px;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: o;
+  margin-top: 0;
+
+}
+.contact-text {
+  display: grid;
+  justify-content: center;
+}
+.contact-me {
+  font-family: arial;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  justify-content: center;
+}
+.name-section {
+  display: grid;
+  align-items: center;
+}
+.name-box {
+  height: 20px;
+  width: 550px;
+}
+.name {
+  display: block;
+  font-size: 20px;
+}
+.email-section {
+  display: grid;
+  align-items: center;
+}
+.email {
+  display: inline-block;
+  font-size: 20px;
+}
+.email-box {
+  height: 20px;
+  width: 550px;
+}
+
+
+.phone-section {
+  display: grid;
+  align-items: center;
+}
+.phone-no {
+  font-family: arial;
+  display:inline-block;
+  font-size: 20px;
+}
+.phone-box {
+  height: 20px;
+  width: 550px;
+}
+.message-section {
+  display: grid;
+  align-items: center;
+}
+.message {
+  display: block;
+  font-size: 20px;
+
+}
+.message-box {
+  height: 20px;
+  display: block;
+  width: 550px;
+}
+.robot-section {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+.robot-question {
+  font-family: arial;
+  display: inline-block;
+  font-weight: bolder;
+}
+.check-box {
+  display: inline-block;
+}
+.send-section {
+  margin-top: 20px;
+  display: grid;
+  flex-direction: row;
+  flex: 1;
+  width: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 280px;
+}
+.send-button {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-width: 1px;
+  width: 50px;
+  height: 25px;
+
+}
+.send-text {
+  font-family: arial;
+  font-size: 14px;
+}
+.send:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.send:active {
+  background-color: black;
+  color: white;
+}
+.skills {
+  background-color: rgb(230, 229, 229);
+  display: grid;
+  border-radius: 10px;
+}
+.front-end-section {
+  display: grid;
+  justify-content: center;
+  height: 60px;
+  width: 800px;
+  border-width: 8px;
+  border-radius: 2px;
+  border-radius: 10px; 
+}
+.front-end-section:hover {
+  cursor: pointer;
+  background-color: rgb(204, 198, 198);
+}
+.back-end-section {
+  display: grid;
+  justify-content: center;
+  width: 800px;
+  border-width: 8px;
+  height: 60px;
+  border-radius: 2px;
+  border-radius: 10px; 
+}
+.back-end-section:hover {
+  cursor: pointer;
+  background-color: rgb(204, 198, 198);
+}
+
+.ui-section {
+  display: grid;
+  justify-content: center;
+  width: 800px;
+  border-width: 8px;
+  height: 60px;
+  border-radius: 2px;
+  border-radius: 10px; 
+}
+.ui-section:hover {
+  cursor: pointer;
+  background-color: rgb(204, 198, 198);
+}
+
+.skills {
+  display: grid;
+  row-gap: 10px;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: o;
+  margin-top: 0;
+}
+.skill-text {
+  font-family: arial;
+  font-size: 25px;
+  font-weight: bold;
+  display: grid;
+  justify-content: center;
+  height: 40px;
+}
+.front-text {
+  font-family: arial;
+  display: block;
+  font-size: 17px;
+}
+.back-text {
+  font-family: arial;
+  display: block;
+  font-size: 17px;
+}
+
+.skill-topic {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 35px;
+}
+.front-header {
+  justify-content: center;
+  display: grid;
+  font-size: 22px;
+  font-weight: bold;
+}
+.back-header {
+  display: grid;
+  font-size: 22px;
+  font-weight: bold;
+  justify-content: center;
+}
+.ui-header {
+  display: grid;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+section {
+  display: grid;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: o;
+  margin-top: 0;
+  border-radius: 10px;
+  background-color: rgb(230, 229, 229) ;
+}
+
+.project {
+  display: grid;
+  row-gap: 10px;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: o;
+  margin-top: 0;
+  background-color: rgb(177, 171, 171);
+  height: 200px;
+  width: 700px;
+  justify-items: left;
+  border-radius: 10px;
+}
+.project:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
